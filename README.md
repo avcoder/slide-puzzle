@@ -7,7 +7,8 @@ See sample gameplay (bonuses included): http://youtu.be/K64lV-ehDgM?hd=1
 
 
 ## Instructions
-Download the attached assignment3.zip html/css/js template (if you don't use this template or if you use another animation library other than the one given, then you'll be awarded a mark of 0)
+Download/clone this repo.  Use the template provided (if you don't use this template or if you use another animation library other than the one given, then you'll be awarded a mark of 0)
+
 If the user clicks a square, that square will move only if there exists a blank space immediately above it, to the left of it, to the right of it, or below it.  Otherwise it stays still.
 
 ### BONUS +1
@@ -21,9 +22,10 @@ Initially display a randomized, shuffled board. Hint: Do not simply put random s
 RUBRIC: 
 
 ## CRITERIA	
- 1. Create puzzlePieces data structure (ex: an array) that contains multiple objects where each object represents a puzzle piece.  For example, each object could be:
 
-{ name: ".box1", x: 0, y: 0 }
+1. Create puzzlePieces data structure (ex: an array) that contains multiple objects where each object represents a puzzle piece.  For example, each object could be:
+
+`{ name: ".box1", x: 0, y: 0 }`
 
 It's up to you how you want to structure it.  For example will you use a 4x4 2-dimensional array of objects?  Or a single array of objects?  (There are tradeoffs for each one)  
 
